@@ -21,6 +21,9 @@ Pod::Spec.new do |spec|
   It operates only locally (i.e. no data are sent, seen or stored by a third party).
   DESC
 
+# Privacy manifest file 
+spec.ios.resource_bundle = { 'FingerprintJS' => ['PrivacyInfo.xcprivacy'] }
+
   # Git location
   spec.source = {
     git: 'https://github.com/fingerprintjs/fingerprintjs-ios.git', tag: spec.version

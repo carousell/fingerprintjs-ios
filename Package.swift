@@ -22,7 +22,10 @@ let package = Package(
         // Client Libraries
         .target(
             name: "FingerprintJS",
-            dependencies: ["SystemControl"]
+            dependencies: ["SystemControl"],
+            resources: [
+                .process("PrivacyInfo.xcprivacy")
+            ]
         ),
         .target(name: "SystemControl"),
 

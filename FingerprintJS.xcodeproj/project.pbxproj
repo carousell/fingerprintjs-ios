@@ -34,6 +34,7 @@
 		15D7C654298BD6930025CE74 /* LocalAuthenticationInfoHarvester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7C653298BD6930025CE74 /* LocalAuthenticationInfoHarvester.swift */; };
 		15D7C657298C07220025CE74 /* LocalAuthenticationInfoHarvesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7C655298C071A0025CE74 /* LocalAuthenticationInfoHarvesterTests.swift */; };
 		15D7C65A298C0C1D0025CE74 /* AuthenticationContextInfoProvidingDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7C659298C0C1D0025CE74 /* AuthenticationContextInfoProvidingDummy.swift */; };
+		69EAAF332BE34CB8004E6BCA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 69EAAF322BE34CB8004E6BCA /* PrivacyInfo.xcprivacy */; };
 		6A0F5C86297898430068BD4D /* SystemControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2047F32971ACFA008EC677 /* SystemControl.framework */; };
 		6A1D11412809DBDE00566F75 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1D11402809DBDE00566F75 /* DeviceInfo.swift */; };
 		6A1D1143280F1B6600566F75 /* DeviceInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1D1142280F1B6600566F75 /* DeviceInfoProvider.swift */; };
@@ -137,6 +138,7 @@
 		15D7C659298C0C1D0025CE74 /* AuthenticationContextInfoProvidingDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationContextInfoProvidingDummy.swift; sourceTree = "<group>"; };
 		15EB3D2A2A1D10F30057EC3A /* SystemControl.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = SystemControl.xctestplan; path = FingerprintJS.xcodeproj/xcshareddata/xctestplans/SystemControl.xctestplan; sourceTree = "<group>"; };
 		15EB3D2B2A1D11660057EC3A /* FingerprintJS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = FingerprintJS.xctestplan; path = FingerprintJS.xcodeproj/xcshareddata/xctestplans/FingerprintJS.xctestplan; sourceTree = "<group>"; };
+		69EAAF322BE34CB8004E6BCA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6A0F5C82297898430068BD4D /* SystemControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1D11402809DBDE00566F75 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		6A1D1142280F1B6600566F75 /* DeviceInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoProvider.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 		6A82A17027D65DB4007C023F = {
 			isa = PBXGroup;
 			children = (
+				69EAAF322BE34CB8004E6BCA /* PrivacyInfo.xcprivacy */,
 				15EB3D2B2A1D11660057EC3A /* FingerprintJS.xctestplan */,
 				15EB3D2A2A1D10F30057EC3A /* SystemControl.xctestplan */,
 				6A82A17C27D65DB4007C023F /* FingerprintJS */,
@@ -717,6 +720,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69EAAF332BE34CB8004E6BCA /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
